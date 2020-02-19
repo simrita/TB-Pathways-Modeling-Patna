@@ -2,9 +2,9 @@
 #### The script creates the folders : parameters , errors and confidence_intervals in the R working directory.This folder contains the estimated parameters, standard errors and confidence intervals
 # #### The script may take a couple of hours to run.
 # 
-# dir.create("parameters")
-# dir.create("errors")
-# dir.create("confidence_intervals")
+ dir.create("parameters")
+ dir.create("errors")
+dir.create("confidence_intervals")
 source("Step-1-Data-Entry.r")
 source("Step-2-Data-Extraction.r")
 source("Step-3-Data-Extraction.r")
